@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=59.2.0", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gsvdm2py"
+version = "0.0.1"
+authors = [
+  { name="Jonathan Lindbloom", email="jonathan@lindbloom.com" },
+]
+description = "A Python wrapper for MATLAB's gsvd function (generalized singular value decomposition)."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+keywords = ["linear algebra", "gsvd"]
+
+[project.urls]
+"Homepage" = "https://github.com/jlindbloom/gsvdm2py"
+"Bug Tracker" = "https://github.com/jlindbloom/gsvdm2py/issues"
