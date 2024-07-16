@@ -34,6 +34,7 @@ A = np.random.normal(size=(m,n))
 B = np.random.normal(size=(p,n))
 
 # Compute GSVD. Can specify mode="econ" for economic, or pass a matlab.engine object to eng to use a pre-existing engine.
+eng = None
 U, V, X, C, S = gsvd(A, B, mode="full", eng=eng) 
 
 # Validate the decomposition? The GSVD outputs are such that:
